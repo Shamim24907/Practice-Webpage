@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind Web Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body class="bg-slate-950">
+    <!--navbar start-->
+
+    <nav
+      class="w-[1200] h-14 sticky top-0 bg-indigo-300 flex justify-between items-center px-4 md:px-4"
+    >
+      <div>
+        <img
+          class="w-[60px] transition duration-300 ease-in-out transform hover:scale-90 cursor-pointer"
+          src="images/logo.png"
+          alt=""
+        />
+      </div>
+      <ul
+        class="md:flex hidden justify-center items-center gap-5 text-white font-bold"
+      >
+        <li
+          class="hover:text-indigo-700 transition duration-300 ease-in-out transform hover:scale-110 cursor-pointer"
+        >
+          Home
+        </li>
+        <li
+          class="hover:text-indigo-700 transition duration-300 ease-in-out transform hover:scale-110 cursor-pointer"
+        >
+          About Us
+        </li>
+        <li
+          class="hover:text-indigo-700 transition duration-300 ease-in-out transform hover:scale-110 cursor-pointer"
+        >
+          Contact Us
+        </li>
+      </ul>
+      <button
+        class="bg-indigo-500 text-white px-4 py-1 rounded-lg hover:bg-indigo-700 transition duration-300 ease-in-out transform hover:scale-110 cursor-pointer hidden md:block"
+      >
+        Login
+      </button>
+
+      <div class="md:hidden">
+        <a href="#">&#9776;</a>
+      </div>
+    </nav>
+
+    <!--navbar end-->
+
+    <!--Image Section Start-->
+
+    <header class="w-full h-auto">
+      <img class="w-full hidden md:block" src="images/web img.jpg" alt="" />
+
+      <img class="w-full md:hidden" src="images/mbl img.jpg" alt="" />
+    </header>
+
+    <!--Image Section End-->
+
+    <!--Our Students Section Start-->
+
+    <div
+      class="h-auto w-full flex flex-wrap flex-col justify-center items-center text-center p-10 "
+    >
+      <div
+        class="w-full h-auto flex flex-wrap flex-col items-center text-center"
+      >
+        <p
+          class="text-indigo-400 font-bold text-md md:text-3xl text-center"
+        >
+          Pure Hardwork, No Shortcuts!
+        </p>
+        <div
+          class="w-36 h-1 border-b-4 border-yellow-400 mt-2 rounded-2xl md:mt-4 md-12"
+        ></div>
+      </div>
+
+      <div class="w-full flex flex-wrap justify-evenly">
+        <div class="w-46 flex flex-col items-center mt-2">
+          <img
+            class="w-20 h-20 transition duration-300 ease-in-out transform hover:scale-110 cursor-pointer"
+            src="images/book.png"
+            alt=""
+          />
+          <p class="text-2xl font-bold text-white">600+</p>
+          <p class="text-lg text-gray-500 font-bold">Different Courses</p>
+        </div>
+        <div class="w-46 flex flex-col items-center mt-2">
+          <img
+            class="w-20 h-20 transition duration-300 ease-in-out transform hover:scale-110 cursor-pointer"
+            src="images/student.png"
+            alt=""
+          />
+          <p class="text-2xl font-bold text-white">700,000+</p>
+          <p class="text-lg text-gray-500 font-bold">Student Enrolled</p>
+        </div>
+        <div class="w-46 flex flex-col items-center mt-2">
+          <img
+            class="w-20 h-20 transition duration-300 ease-in-out transform hover:scale-110 cursor-pointer"
+            src="images/card.png"
+            alt=""
+          />
+          <p class="text-2xl font-bold text-white">10,000+</p>
+          <p class="text-lg text-gray-500 font-bold">
+            Succesful Transition
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!--Our Students Section End-->
+
+
+    <!--Our Product Section Start-->
+
+    <div
+      class="h-auto w-full flex flex-wrap flex-col justify-center items-center text-center p-10"
+    >
+      <div
+        class="w-full h-auto flex flex-wrap flex-col items-center text-center"
+      >
+        <p
+          class="text-indigo-400 font-bold text-lg md:text-3xl text-center"
+        >
+          Our Products
+        </p>
+        <div
+          class="w-36 h-1 border-b-4 border-yellow-400 mt-2 rounded-2xl md:mt-4 md-12"
+        ></div>
+
+
+        <div class="w-[90%] h-auto flex flex-wrap justify-around">
+
+          <div class="w-64 flex flex-col items-center mt-12 p-2">
+            <img class="w-30 h-30 transition duration-300 ease-in-out transform hover:scale-110 cursor-pointer" src="images/skill.png" alt="">
+            <p class="text-2xl font-bold text-white">PW Skills lab</p>
+            <p class="text-xl font-bold text-gray-500">Supercharge your project with our robust lab.</p>
+          </div>
+
+
+          <div class="w-64 flex flex-col items-center mt-12 p-2">
+            <img class="w-30 h-30 transition duration-300 ease-in-out transform hover:scale-110 cursor-pointer" src="images/job.png" alt="">
+            <p class="text-2xl font-bold text-white">Job portal</p>
+            <p class="text-xl font-bold text-gray-500">Use exceptioanl templates for a
+stand-out resume minus the sign
+up process.</p>
+          </div>
+
+
+          <div class="w-64 flex flex-col items-center mt-12  p-2">
+            <img class="w-30 h-30 transition duration-300 ease-in-out transform hover:scale-110 cursor-pointer" src="images/ex.png" alt="">
+            <p class="text-2xl font-bold text-white">Experience portal</p>
+            <p class="text-xl font-bold text-gray-500">PW Skills self placed expeirience portal
+prioritieshand-on training with 570+
+internship projects.</p>
+          </div>
+
+
+          <div class="w-64 flex flex-col items-center mt-12  p-2">
+            <img class="w-30 h-30 transition duration-300 ease-in-out transform hover:scale-110 cursor-pointer" src="images/affe.png" alt="">
+            <p class="text-2xl font-bold text-white">Affiliate</p>
+            <p class="text-xl font-bold text-gray-500">Explore affiliate marketing opportunities with
+PW Skills and attain financial freedom.</p>
+          </div>
+
+
+          <div class="w-64 flex flex-col items-center mt-12  p-2">
+            <img class="w-30 h-30 transition duration-300 ease-in-out transform hover:scale-110 cursor-pointer" src="images/fram.png" alt="">
+            <p class="text-2xl font-bold text-white">Hall Of Frame</p>
+            <p class="text-xl font-bold text-gray-500 ">Our student placement and 100K+ carrer
+transition speak volumes about our courses.</p>
+          </div>
+        </div>
+      </div>
+
+      <!--Our Product Section End-->
+
+      <!--Footere Section Start-->
+
+      <footer class="w-full bg-gray-900 px-4 py-4 text-white pt-6 flex flex-col md:flex-row flex-wrap justify-between md:px-12">
+        <div>
+        <img class="w-50 h-18 transition duration-300 ease-in-out transform hover:scale-110 cursor-pointer" src="images/PWSkills-white.png" alt="">
+        <p class="my-1 font-bold">Email us: support@skills.com</p>
+        </div>
+
+        <div class=" h-fit flex flex-row justify-center items-center text-center p-2">
+          <h class=" font-bold text-xl mt-4">PW Skills</h2>
+            <div class="w-36 h-1 border-b-2 border-yellow-400 rounded-2xl my-2">
+              
+            </div>
+          <div class="font-light text-sm">
+            <p>About Us</p>
+            <p>FAQs</p>
+            <p>Privacy Policy</p>
+          </div>
+        </div>
+
+        <div class="h-fit flex  flex-row justify-center items-center text-center p-2">
+          <h class=" font-bold text-xl mt-4">Products</h2>
+            <div class="w-36 h-1 border-b-2 border-yellow-400 rounded-2xl my-2">
+              
+            </div>
+          <div class="font-light text-sm">
+            <p>PW Skills lab</p>
+            <p>Job Portal</p>
+            <p>Experience</p>
+            <p>Become an affiliate</p>
+            <p>Hall of frame</p>
+          </div>
+        </div>
+
+        <div class=" h-fit flex flex-row justify-center items-center text-center p-2">
+          <h class="font-bold text-xl mt-4">Links</h2>
+            <div class="w-36 h-1 border-b-2 border-yellow-400 rounded-2xl my-2 ">
+              
+            </div>
+          <div class="font-light text-sm">
+            <p>Discord Channel</p>
+            <p>PW Youtube</p>
+            <p>Careers</p>
+          </div>
+        </div>
+
+      </footer>
+
+      <!--Footere Section End-->
+  </body>
+</html>
