@@ -7,6 +7,25 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
-  }
+    "build": "vite build",
+    "preview":"vite preview"
+  },
+  "name": "tal-webpage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "vite": "^7.1.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shamim24907/Practice-Webpage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shamim24907/Practice-Webpage/issues"
+  },
+  "homepage": "https://github.com/Shamim24907/Practice-Webpage#readme"
 }
